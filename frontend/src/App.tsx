@@ -1,10 +1,11 @@
 import React, {FC} from 'react';
-import './App.scss';
+import './app.scss';
+import {Home} from "./home/Home"
 
 const App:FC = () => {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <Home/>
     </div>
   );
 }
